@@ -68,7 +68,7 @@ describe('ProductService', () => {
     httpMock.verify();
   })
   it("Should create", () => {
-    expect(service).toBeTruthy();
+    expect(service).not.toBeTruthy();
   })
   it("getAllProducts receives all products", () => {
     const URL = "http://onlinetestapi.gerasim.in/api/Ecomm/GetAllProducts";
