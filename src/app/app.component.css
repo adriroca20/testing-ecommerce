@@ -14,7 +14,6 @@ a:hover {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
-
 }
 
 .box-shadow {
@@ -28,8 +27,8 @@ a:hover {
 .cart::after {
     display: none !important;
 }
- 
-.dropdown-menu{
+
+.dropdown-menu {
     top: 100%;
     left: unset !important;
     right: 0px !important;
